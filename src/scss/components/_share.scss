@@ -5,7 +5,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  border: 2px solid red;
+  border: 1px solid red;
+  width: 100px;
  
   &--bitcoin {
     background-image: url('../images/png/bitcoin-share.png'),

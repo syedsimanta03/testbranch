@@ -2,23 +2,17 @@
   background: rgb(255, 255, 255);
   box-shadow: $mild-shadow;
   border-radius: 1.2rem;
-
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 0px 84px, 0 0;
-  
-
-  border: 1px solid yellow;
-  width: 100%;
-  height: 100%;
-
+ 
   &--bitcoin {
-    background-image: url("../images/png/bitcoin-share.png"),
+    background-image: url('../images/png/bitcoin-share.png'),
       linear-gradient(to top, $color-secondary, white 35%);
   }
 
   &--etherum {
-    background-image: url("../images/png/etherum-share.png"),
+    background-image: url('../images/png/etherum-share.png'),
       linear-gradient(to top, $color-primary, white 35%);
   }
 

@@ -7,6 +7,9 @@
   background-size: contain;
   background-position: 0px 84px, 0 0;
 
+  border: 1px solid yellow;
+  width: 100%;
+
   &--bitcoin {
     background-image: url("../images/png/bitcoin-share.png"),
       linear-gradient(to top, $color-secondary, white 35%);
